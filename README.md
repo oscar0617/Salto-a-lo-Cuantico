@@ -106,7 +106,7 @@ for i in range(len(matriz_transpuesta)):
         else:
             estocastica = True
 ```
-_En caso de que nuestra verificación sea True (```estocastica = True```), vamos a crear una lista con elementos de tipo ```float``` que hace el llamado a la función de clicks.
+_En caso de que nuestra verificación sea True (```estocastica = True```), vamos a crear una lista con elementos de tipo ```float``` que hace el llamado a la función de clicks._
 ```
     if estocastica == True:
         res = list(map(float, clicks(matriz, estado, 1)))
@@ -115,7 +115,7 @@ _En caso de que nuestra verificación sea True (```estocastica = True```), vamos
 ### Pruebas en codigo
 _Al finalizar cada función encontraremos su respectiva prueba con comentario (```#matriz = [[1/3,0,0],[1/3,0,1],[1/3,1,0]]
 #estado = [1,0,0]
-#print(multiplesRendijas(matriz, estado))```), para poder probar cada una debemos quitar sus respectivos comentarios.
+#print(multiplesRendijas(matriz, estado))```), para poder probar cada una debemos quitar sus respectivos comentarios._
 
 ## ¿Como lo construimos?
 * [Pycharm](https://www.jetbrains.com/es-es/pycharm/) -_El iDLE usado_
